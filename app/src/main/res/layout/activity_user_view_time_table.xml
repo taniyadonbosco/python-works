@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg1"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".User_view_time_table">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Table" />
+
+    <ListView
+        android:id="@+id/lvtime"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
